@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#211D44"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/SplachTv"
+        android:layout_width="388dp"
+        android:layout_height="390dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="23dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icget"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="113dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Healthy On You"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SplachTv" />
+
+    <TextView
+        android:id="@+id/tv_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="113dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Key of happiness is not a \n life for money"
+        android:textAlignment="center"
+        android:textColor="#A3A2AD"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_health" />
+
+    <android.widget.Button
+        android:id="@+id/btn"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="113dp"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:text="Get Started"
+        android:background="@drawable/bg"
+        app:layout_constraintHorizontal_bias="0.459"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sub" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
